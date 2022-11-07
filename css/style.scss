@@ -7,27 +7,40 @@ html {
   main h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 50px;
+    font-size: 75px;
+    padding: 150px;
   }
+ 
   #section1 {
     height: 900px;
-    background-color: #B5D5CD;
+    background: rgb(187,210,197);
+    background: linear-gradient(0deg, rgba(187,210,197,1) 0%, rgba(83,105,118,1) 77%);
   }
   
   #section2 {
     height: 900px;
-    background-color: #F2FFFC;
+    background-color: #bbd2c5;
   }
   .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 5px;
-    color: dark gray;
    
+  
   
   }
   .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+  }
+
+  #section1 a {
+    display: flex;
+    justify-content: center;
+    color: dark gray;
+  
+  }
+  #section1 i {
+    color: dark gray;
   }
